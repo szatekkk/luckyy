@@ -1,0 +1,16 @@
+name: Lucky
+version: '$version'
+
+main: pl.Szatekk.lucky.Lucky
+api-version: '1.21'
+
+authors: [ Szatekkk ]
+website: stk-dev.pl
+
+commands:
+  lucky:
+    permission: Lucky.Command
+    description: Lucky Command
+    usage: /lucky
+    aliases: [PykMc, Bluker,]
+    permission-message: Nie posiadasz do tego permisji! Masz kare!!!
